@@ -1,0 +1,406 @@
+LanguageID: 0
+LanguageName: Türkçe
+System:
+  Selected: '&4Türkçe &6Dilini Seçtin'
+  Home_Page: 'Ev'
+  Commands_Page: 'Komutlar'
+  Updates_Page: 'Güncellemeler'
+  Usage_Page: 'Kullanım'
+  Languages_Page: 'Dil'
+  Community_Page: 'Topluluk'
+  Trails_CMD: 'İz menüsünü aç'
+  TrailsID_CMD: 'iz ID seç'
+  SuperTrails_CMD: 'Admin Paneli - Ev Sayfası'
+  SuperTrails_Player_CMD: 'Ev Sayfası'
+  CmdNoPermissionTrail: '&cÜzgünüm, bu iz için yetkin bulunmamakta'
+  NoWingsPermission: '&cSÜzgünüm, bu kanat için yetkin bulunmamakta'
+  NoPatternPermission: '&cÜzgünüm, bu model için yetkin bulunmamakta'
+  TrailSelected: '& &a&l!name! &7izini seçtin'
+  ToggleOnMessage: '&7Bütün izler gösteriliyor'
+  ToggleOffMessage: '&7Bütün izler gizlendi'
+MenuNames:
+  Selector: 'İz: Tipi Seç'
+  Particles: 'İz: Partiküller'
+  Blocks: 'İz: Bloklar'
+  Languages: 'İzler: Diller'
+  Modes: 'İz: Modlar'
+  Rain1: 'Yağmur Rengini Seç'
+  Rain2: 'Yağmur İtemini Seç'
+  Wings: 'Kanatlar'
+  Wings1: 'Kanat Seç'
+  Wings2: 'Renkler'
+  Wings3: 'İlk Renk'
+  Wings4: 'İkinci Renk'
+  Wings5: 'Üçüncü Renk'
+  WingsPattern: 'Model Seç'
+  Event: 'İz: Event'
+  EventSecond: 'İz: Event'
+  EventOpen: 'İz: Open'
+  AreYouSure: 'Emin misin?'
+Menu:
+  Particle: '&6Partikül İzleri'
+  Block: '&3Blok İzleri'
+  Rain: '&7Yağmur'
+  Wings: '&fKanat'
+  Langs: '&7Diller'
+  Admin: '&7Admin Ayarları'
+  Event: '&fKapalı'
+  Clear: '&cİzi Sil'
+  Access: '&a&lTıkla ve Seç'
+  NoAccess: '&c&lBu iz için yetkin bulunmamakta'
+  NoPermission: '§c§lYetkin Yok!'
+  Sell: 'Sat'
+  Buy: 'Al'
+  Modes: '&8!Önceki &7< &f&l!current &7> &8!Sonraki'
+  Back: '&7<< Ana Menüye Geri Dön'
+  NoTrails: '&cBu Yerde Herhangi Bir İziniz Yok'
+  LangSelect: '&8Tıkla ve Seç'
+  Lore:
+    - '&6&l----------'
+    - '!permission!'
+  Next: '&aSonraki Sayfa'
+  Prev: '&aÖnceki Sayfa'
+  AYS:
+    SignItem:
+      Name: '&fEmin Misin?'
+    YesItem:
+      Name: '&eEvet'
+      Lore:
+        - ' '
+        - '&fİşleminizi Onaylamak İçin Buraya Tıklayın'
+    NoItem:
+      Name: '&aHayır'
+      Lore:
+        - ' '
+        - '&fTıkla İptal Et'
+  Keeper:
+    Empty:
+      Name: '&7Boş Yer'
+      Lore:
+        - ' '
+        - '&eTıkla ve Kanat Oluştur'
+    ColorWings:
+      Name: '!wingsname!'
+      Lore:
+        - ' '
+        - '&7Renkler:'
+        - '&7 - !color1!'
+        - '&7 - !color2!'
+        - '&7 - !color3!'
+        - ' '
+        - '&eSol Tıkla ve Seç'
+        - '&eSağ Tıkla ve Değiştir'
+    PatternWings:
+      Name: '!wingsname!'
+      Lore:
+        - ' '
+        - '&7Model: &f!pattern!'
+        - ' '
+        - '&eSol Tıkla ve Seç'
+        - '&eSağ Tıkla ve Değiştir'
+    Remove:
+      Name: '&cKaldır'
+      Lore:
+        - '&cMevcut Kanadınızı Kaldırmak İçin Buraya Tıklayın'
+    Save:
+       Name: '&aKaydet'
+       Lore:
+         - ' '
+         - '&eTıkla ve Kaydet'
+    Cancel:
+       Name: '&eİptal'
+       Lore:
+         - ' '
+         - '&cHerhangi Bir Değişiklik Uygulanmadı'
+    WingsChange:
+      Name: '&f!wingsname!'
+      Lore:
+        - ' '
+        - '&eTıkla ve Kanadı Değiştir'
+    ColorChange:
+      Name: '&f!color!'
+      Lore:
+        - ' '
+        - '&eTıkla ve Rengi Değiştir'
+    PatternChange:
+      Name: '&f!pattern!'
+      Lore:
+        - ' '
+        - '&eTıkla ve Modeli Değiştir'
+    BuildIt:
+      Name: '&aKanat Oluştur'
+      Lore:
+        - '&7Yukarıdaki Kanatları Seçin'
+    Undefined: '&fYok'
+    NotSupported:
+      Name: '&cMevcut Kanat Bu Rengi Desteklemiyor'
+    ResetPattern:
+      Name: '&cTıkla ve Modeli Resetle'
+    SetUnfinishedError: '&cSeçtiğin Uygulanamıyor'
+Event:
+  Messages:
+    Start: '=== /n&a&LEvent Başladı, Bedava !a! Sandığı Al /n&6Type /Trails'
+    End: '&cEvent Bitti'
+    Wait: '&cBekle'
+  Rarity:
+    Common: '&f&lSıradan'
+    Rare: '&3&lNadir'
+    Epic: '&6&lEfsanevi'
+  Chest:
+    Name: '&fEvent Sandığı'
+    Lore:
+      - ' '
+      - '&7Sandığında: !a!'
+      - ' '
+      - 'Aç!'
+    Open: '&a>> Tıkla ve Aç <<'
+    CantOpen: '&cSandığa Sahip Değilsin'
+  OpenChest:
+    Name: '&aTıkla ve Aç'
+    Lore:
+      - ' '
+      - 'Loot: ???'
+      - ' '
+      - '&7Tıkla ve Sandığı Aç'
+  Empty:
+    Name: '&7Sandık Yok'
+  Confetti:
+    Name: '&fKonfeti İzleri'
+    Lore:
+      - ' '
+      - '&fRenkler:'
+      - '!color1!'
+      - '!color2!'
+      - '!color3!'
+      - ' '
+      - '&7Nadirlik: !r!'
+      - ' '
+      - '&a&lTıkla ve seç'
+  ColorSpin:
+    Name: '!color! İzi Döndür'
+    Lore:
+      - ' '
+      - '&7Nadirlik: !r!'
+      - ' '
+      - '&a&lTıkla ve Seç'
+  Color:
+    Name: '!color!&f Kanat/Yağmur rengi'
+    Lore:
+      - ' '
+      - '&8Kanat ve Yağmur Yapanda Mevcuttur'
+      - ' '
+      - '&7Nadirlik: !r!'
+  UnlockedColor:
+    Name: '!color!&f Renk'
+    Lore:
+      - ' '
+      - '&8Bu Renge Event Sandığında Sahipsin!'
+      - ' '
+      - '&7Nadirlik: !r!'
+  LockedColor:
+    Name: '&cLocked'
+    Lore:
+      - ' '
+      - '&7Event Sandığını Al'
+      - ' '
+      - '&7Nadirlik: !r!'
+  Nothing:
+    Name: '&c???'
+  Fairy:
+    Name: '!color! Peri İzi'
+    Lore:
+      - ' '
+      - '&8Takip eden Peri İzi'
+      - ' '
+      - '&7Nadirlik: !r!'
+  Points:
+    LoreAdd:
+      - ' '
+      - '&cBu İz Zaten Var'
+      - '&l!points! &cPuan Dönüştürüldü'
+  PointsItem:
+    Name: '&bPuanlar: !points!'
+    Lore:
+      - ' '
+      - '&7Puanları Sandıklara Dönüştürebilirsiniz'
+      - ' '
+      - '&71 Sandık = 100 Puan'
+      - ' '
+      - '!convert!'
+    CanConvert: '&eTıkla ve Puanını Dönüştür!'
+    CantConvert: '&cYeterli Puanın Yok'
+  DatabaseErrorCatch: '&cLütfen Tekrar Deneyiniz'
+ParticleMenu:
+  Heart: '&cKalpler'
+  Angry: '&6Kızgın'
+  Magic: '&3Büyü'
+  Fun: '&eRengarenk'
+  Cloud: '&fBulutlar'
+  Witch: '&5Cadı'
+  Ender: '&dEnder'
+  Green: '&aKöylü'
+  Spark: '&fKıvılcım'
+  Flame: '&6Alev'
+  White: '&fBeyaz Büyü'
+  Note: '&3Notalar'
+  Snow: '&fKar'
+  Water: '&9Su'
+  Lava: '&6Lav'
+  Crit: '&fKritik'
+  Smoke: '&7Sis'
+  Spell: '&eKara Büyü'
+  Enchant: '&fMatrix'
+  Splash: '&9Su Sıçraması'
+  Slime: '&aBalçık'
+  Snowball: '&fKar topu'
+  Void: '&7End'
+  LavaPop: '&eLav Patlaması'
+  Rainbow: '&eLGBT'
+  Breath: '&dNefes'
+  EndRod: '&7End Çubuğu'
+  Damage: '&cHasar'
+  Totem: '&aTotem'
+  Soul: '&bRuh'
+  SoulFire: '&bRuh Ateşi'
+Modes:
+  Default: 'Normal'
+  Circle: 'Daire'
+  Magician: 'Büyücü'
+  Shooter: 'Atıcı'
+  Slinky: 'Sinsi'
+  Pulse: 'Nabız'
+  Helix: 'Salyangoz'
+  Dna: 'Dna'
+  Spiral: 'Sarmal'
+  ModeNotSupported: '&cMevcut Mod Bu İz ile Desteklenmiyor'
+  TrailNotSupported: '&cMevcut Mod Bu İz ile Desteklenmiyor'
+  Lore:
+    - '&6&l----------'
+    - '!permission!'
+BlockMenu:
+  1:
+    Name: '&fYün'
+    Lore:
+      - ' '
+      - '&81#:'
+      - '&8- Yün (Kırmızı)'
+      - '&8- Yün (Sarı)'
+      - '&8- Yün (Yeşil)'
+      - '&8- Yün (Mavi)'
+      - ' '
+      - '!permission!'
+  2:
+     Name: '&fCam'
+     Lore:
+       - ' '
+       - '&82#:'
+       - '&8- Cam (Beyaz)'
+       - '&8- Cam (Turuncu)'
+       - '&8- Cam (Eflatun)'
+       - '&8- Cam (Mavi)'
+       - ' '
+       - '!permission!'
+  3:
+     Name: '&fCehennem'
+     Lore:
+       - ' '
+       - '&83#:'
+       - '&8- Kuvars Cevheri'
+       - '&8- Nether Tuğlası'
+       - '&8- Nether Taşı'
+       - '&8- Işık Taşı'
+       - ' '
+       - '!permission!'
+  4:
+     Name: '&fKil'
+     Lore:
+       - ' '
+       - '&84#:'
+       - '&8- Kil(Turuncu)'
+       - '&8- Kil (Eflatun)'
+       - '&8- Kil (Gri)'
+       - '&8- Kil (Pembe)'
+       - ' '
+       - '!permission!'
+  5:
+     Name: '&fMaden'
+     Lore:
+       - ' '
+       - '&85#:'
+       - '&8- Lapis Cevheri'
+       - '&8- Zümrüt Cevheri'
+       - '&8- Kızıltaş Cevheri'
+       - '&8- Kömür Cevheri'
+       - ' '
+       - '!permission!'
+  6:
+     Name: '&fKızıltaş'
+     Lore:
+       - ' '
+       - '&86#:'
+       - '&8- TNT'
+       - '&8- Piston'
+       - '&8- Nota Bloğu'
+       - '&8- Kızıltaş Bloğu'
+       - ' '
+       - '!permission!'
+  7:
+     Name: '&fDoğa'
+     Lore:
+       - ' '
+       - '&87#:'
+       - '&8- Podzol'
+       - '&8- Çim'
+       - '&8- Çakıl'
+       - '&8- Kum'
+       - ' '
+       - '!permission!'
+  8:
+     Name: '&fZengin'
+     Lore:
+       - ' '
+       - '&88#:'
+       - '&8- Demir Blok'
+       - '&8- Altın Blok'
+       - '&8- Elmas Blok'
+       - '&8- Zümrüt Blok'
+       - ' '
+       - '!permission!'
+RainAndWings:
+  White: '&fBeyaz'
+  Red: '&cKırmızı'
+  Yellow: '&eSarı'
+  Green: '&aYeşil'
+  Blue: '&9Mavi'
+  Purple: '&dMor'
+  Black: '&7Siyah'
+  Orange: '&6Turuncu'
+  Marmoreal: '&7Turkuaz'
+  Darkred: '&4Koyu Kırmızı'
+  Pink: '&dPembe'
+  Darkcyan: '&3Koyu Mavi'
+  Aqua: '&bSu'
+  Gray: '&7Gri'
+  Rainbow: '&7Rengarenk'
+  Color: '&fRenkler'
+  Pattern: '&fModel'
+Wings:
+  Angel: '&f&lMelek'
+  Butterfly: '&f&lKelebek'
+  Elf: '&f&lElf'
+  Long: '&f&lUzun'
+  Butterfly2: '&f&lKelebek #2'
+  Short: '&f&lKısa'
+  Demon: '&f&lŞeytan'
+  Night: '&f&lGece'
+Pattern:
+  Gradient1: '&e&lSeçim #1'
+  Gradient2: '&e&lSeçim #2'
+  Gradient3: '&e&lSeçim #3'
+  Mushroom: '&c&lMantar'
+  Fire: '&6&lAteş'
+  Colors: '&a&lRenk'
+  Fly: '&5&lUçmak'
+#PatternLore:
+#  Pattern1:
+#    - 'Lore Test'
